@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <div>
  <style>  
  * {
@@ -30,9 +32,6 @@
     margin:auto;
   }
 
-
-
-
       .thumbnail {
   width: 48px;
   height: 48px;
@@ -43,6 +42,28 @@
       border: 1px red dashed;
     }
 
+    .image-row{margin-bottom:20px;
+      text-align: center;
+    }
+
+.name-row {margin-bottom: 30px;text-align: center;}
+
+.social-icons-row {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  margin-bottom: 20px;
+display: flex;
+  align-items: center;
+}
+
+.link-text {
+  text-align: center;
+flex-grow:1;
+}
 
   </style>
 </head>
@@ -59,7 +80,7 @@
 
 
 
-      <div class="social icons row">
+      <div class="social-icons-row">
         <a href="https://www.instagram.com/realmadrid/?hl=en" target="_blank">Instagram
 
         </a>
@@ -71,10 +92,12 @@
       </div>
 
       <div class="links-row"
-    <div class="item">
+
+      
+  <div class="item">
       <img class="thumbnail" src="/florian-wehde-WBGjg0DsO_g-unsplash.jpg">
 
-      <a target="_blank" href="https://profgmedia.com/no-mercy-no-malice/">No Mercy No Malice
+      <a class="link-text" target="_blank" href="https://profgmedia.com/no-mercy-no-malice/"> No Mercy No Malice
   </a>
 </div>
 
@@ -82,7 +105,7 @@
 <div class="item">
   <img class="thumbnail" src="/manuel-nobauer-Vv0Qlq9jZVQ-unsplash.jpg">
 
-  <a target="_blank" href="https://allin.com/">All In
+  <a class="link-text" target="_blank" href="https://allin.com/">All In
 
   </a> 
 </div>
